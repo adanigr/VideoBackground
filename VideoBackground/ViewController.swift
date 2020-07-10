@@ -20,7 +20,6 @@ class ViewController: UIViewController {
     }
 
     private func setupView() {
-        //let path = URL(
     }
 }
 
