@@ -7,14 +7,20 @@
 //
 
 import UIKit
+import AVFoundation
+import AVKit
 
 class ViewController: UIViewController {
+    //MARK: - IBOutlet
+    @IBOutlet weak var videoView: UIView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    private func setupView() {
+        //let path = URL(
+    }
 }
 
