@@ -76,7 +76,8 @@
 			children = (
 				9ABCDC1824B8F58300D16930 /* AppDelegate.swift */,
 				9A65CD6F24B97FA500A1AEBA /* LaunchScreen.storyboard */,
-				9ABCDC2624B8F58400D16930 /* Info.plist */,
+				9ABCDC1C24B8F58300D16930 /* ViewController.swift */,
+				9ABCDC1E24B8F58300D16930 /* Main.storyboard */,
 			);
 			path = Commons;
 			sourceTree = "<group>";
@@ -100,10 +101,9 @@
 		9ABCDC1724B8F58300D16930 /* VideoBackground */ = {
 			isa = PBXGroup;
 			children = (
+				9ABCDC2624B8F58400D16930 /* Info.plist */,
 				9A65CD7424B9857700A1AEBA /* Commons */,
 				9A65CD7124B984FA00A1AEBA /* Resources */,
-				9ABCDC1C24B8F58300D16930 /* ViewController.swift */,
-				9ABCDC1E24B8F58300D16930 /* Main.storyboard */,
 			);
 			path = VideoBackground;
 			sourceTree = "<group>";
