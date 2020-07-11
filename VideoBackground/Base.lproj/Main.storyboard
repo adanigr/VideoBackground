@@ -15,13 +15,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Len-gC-anZ">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wp2835877" translatesAutoresizingMaskIntoConstraints="NO" id="oGT-me-ifg">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </imageView>
+                            <view alpha="0.34999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Len-gC-anZ">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" white="1" alpha="0.30297517123287671" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JIL-yy-Ifa">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.30174443493150682" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="JIL-yy-Ifa" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="12I-yk-jxU"/>
+                            <constraint firstItem="JIL-yy-Ifa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2lt-ga-DVs"/>
+                            <constraint firstItem="Len-gC-anZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ABD-cm-dFk"/>
+                            <constraint firstItem="Len-gC-anZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="AbS-VD-lVX"/>
+                            <constraint firstAttribute="bottom" secondItem="oGT-me-ifg" secondAttribute="bottom" id="Nxv-k2-Hgz"/>
+                            <constraint firstAttribute="trailing" secondItem="oGT-me-ifg" secondAttribute="trailing" id="VPD-36-0SH"/>
+                            <constraint firstItem="Len-gC-anZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="X4s-l5-kuB"/>
+                            <constraint firstAttribute="bottom" secondItem="Len-gC-anZ" secondAttribute="bottom" id="Yst-Ve-H2f"/>
+                            <constraint firstItem="oGT-me-ifg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ZU8-4f-LCR"/>
+                            <constraint firstItem="JIL-yy-Ifa" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="d1b-xu-7gD"/>
+                            <constraint firstItem="JIL-yy-Ifa" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="dk7-py-lRR"/>
+                            <constraint firstItem="oGT-me-ifg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eXz-4v-fME"/>
+                            <constraint firstAttribute="bottom" secondItem="JIL-yy-Ifa" secondAttribute="bottom" id="kiD-PV-LJj"/>
+                            <constraint firstItem="Len-gC-anZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="opZ-F6-9gz"/>
+                            <constraint firstItem="oGT-me-ifg" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ouu-67-dG8"/>
+                            <constraint firstItem="Len-gC-anZ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="prk-Xg-4KK"/>
+                            <constraint firstItem="JIL-yy-Ifa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="rmg-RC-xOE"/>
+                            <constraint firstItem="oGT-me-ifg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="xWA-OV-Yul"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
@@ -33,4 +59,7 @@
             <point key="canvasLocation" x="131.8840579710145" y="99.776785714285708"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="wp2835877" width="800" height="533.5"/>
+    </resources>
 </document>
