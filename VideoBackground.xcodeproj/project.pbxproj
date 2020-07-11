@@ -43,6 +43,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A65CD7124B984FA00A1AEBA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9A65CD7324B9854500A1AEBA /* Images */,
+				9A65CD7224B9853800A1AEBA /* Videos */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9A65CD7224B9853800A1AEBA /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				9A65CD6B24B9690D00A1AEBA /* Futuristic.mp4 */,
+				9A65CD6D24B9691600A1AEBA /* Octagon.mp4 */,
+				9A65CD6724B965F800A1AEBA /* Transition.mp4 */,
+				9A65CD6924B9681200A1AEBA /* Blue.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		9A65CD7324B9854500A1AEBA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9ABCDC2124B8F58400D16930 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		9A65CD7424B9857700A1AEBA /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				9ABCDC1824B8F58300D16930 /* AppDelegate.swift */,
+				9A65CD6F24B97FA500A1AEBA /* LaunchScreen.storyboard */,
+				9ABCDC2624B8F58400D16930 /* Info.plist */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
 		9ABCDC0C24B8F58300D16930 = {
 			isa = PBXGroup;
 			children = (
@@ -62,16 +100,10 @@
 		9ABCDC1724B8F58300D16930 /* VideoBackground */ = {
 			isa = PBXGroup;
 			children = (
-				9A65CD6724B965F800A1AEBA /* Transition.mp4 */,
-				9A65CD6B24B9690D00A1AEBA /* Futuristic.mp4 */,
-				9A65CD6924B9681200A1AEBA /* Blue.mp4 */,
-				9A65CD6D24B9691600A1AEBA /* Octagon.mp4 */,
-				9ABCDC1824B8F58300D16930 /* AppDelegate.swift */,
+				9A65CD7424B9857700A1AEBA /* Commons */,
+				9A65CD7124B984FA00A1AEBA /* Resources */,
 				9ABCDC1C24B8F58300D16930 /* ViewController.swift */,
 				9ABCDC1E24B8F58300D16930 /* Main.storyboard */,
-				9ABCDC2124B8F58400D16930 /* Assets.xcassets */,
-				9ABCDC2624B8F58400D16930 /* Info.plist */,
-				9A65CD6F24B97FA500A1AEBA /* LaunchScreen.storyboard */,
 			);
 			path = VideoBackground;
 			sourceTree = "<group>";
