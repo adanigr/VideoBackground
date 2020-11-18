@@ -13,18 +13,23 @@ import AVKit
 class ViewController: UIViewController {
     //MARK: - IBOutlet
     @IBOutlet weak var videoView: UIView!
+    var newLayer = AVPlayerLayer()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         setupView()
     }
+    
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        newLayer.frame = CGRect(x: 0, y: 0, width: size.width, height: size.height)
+    }
 
     private func setupView() {
         let path = URL(fileURLWithPath: Bundle.main.path(forResource: "Blue", ofType: "mp4")!)
         let player = AVPlayer(url: path)
         
-        let newLayer = AVPlayerLayer(player: player)
+        newLayer = AVPlayerLayer(player: player)
         newLayer.frame = self.videoView.frame
         self.videoView.layer.addSublayer(newLayer)
         newLayer.videoGravity = AVLayerVideoGravity.resizeAspectFill
